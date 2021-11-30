@@ -1,0 +1,18 @@
+.banner-container{
+    background: url('../../../Images/footer/footer-background-011.jpg.crdownload');
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 70%, 0% 100%);
+    padding-top: 9%;
+    color: white;
+    padding: 70px;
+    
+}
+.banner-text h2{
+ font-size: 44px;
+}
+.social{
+    font-size: 40px;
+   
+}
+.social a{
+    margin-right: 20px;
+}

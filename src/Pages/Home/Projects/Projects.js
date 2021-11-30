@@ -40,7 +40,7 @@ const Projects = () => {
         <div id="projects" className="Projects container py-3">
             <div>
                 <div className="header text-center">
-                    <h2>MY PROJECTS</h2>
+                    <h2 style={{color: '#4863A0'}}>MY PROJECTS</h2>
                 </div>
                 <div className="wrapper">
                     <div className="divider div-transparent div-dot"></div>
