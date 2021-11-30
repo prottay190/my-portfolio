@@ -1,0 +1,9 @@
+.footer{
+    background: url('../../../Images/footer/footer-background-011.jpg.crdownload');
+    clip-path: polygon(0% 0%, 50% 30%, 100% 0%, 100% 100%, 0% 100%);
+    align-items: center;
+    
+    
+    padding-top: 150px;
+    color: white;
+}
