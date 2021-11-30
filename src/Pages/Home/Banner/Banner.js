@@ -7,7 +7,7 @@ const Banner = () => {
         <div className="banner-container ">
             <div className="text-center banner-text">
                 <h2>Hello, I  am <span style={{ color: '#00FFFF' }}>Prottay</span> </h2>
-                <p>A self-motivated, energetic and active person,<br />
+                <p>I am a junior web developer.<br /> A self-motivated, energetic and active person,<br />
                 I want to a perfect aiding-hand of your organization <br />
                     according to my qualifications during my job.</p>
             </div>

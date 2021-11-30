@@ -7,6 +7,9 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Blogs from './Pages/Blogs/Blogs';
+import Banner from './Pages/Home/Banner/Banner';
+import  NotFound  from './Pages/NotFound/NotFound';
 
 
 
@@ -14,12 +17,21 @@ function App() {
   return (
    <div>
       <Router>
+        <Switch>
         <Route exact path="/">
           <Home></Home>
         </Route>
-        <Switch>
           <Route path="/home">
             <Home></Home>
+          </Route>
+          <Route path="/blogs">
+            <Blogs></Blogs>
+          </Route>
+          <Route path="/about">
+            <Banner></Banner>
+          </Route>
+          <Route path="*">
+            <NotFound></NotFound>
           </Route>
         </Switch>
       </Router>
