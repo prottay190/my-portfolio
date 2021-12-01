@@ -1,10 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Banner.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 
 const Banner = () => {
+    useEffect (() => {
+        AOS.init({
+            offset: 100,
+            duration: 1000,
+            easing: 'ease'
+        });
+    })
     return (
-        <div className="banner-container ">
+        <div className="banner-container" data-aos="fade-right" data-aos-offset="400"
+        data-aos-easing="ease-in-sine">
             <div className="text-center banner-text">
                 <h2>Hello, I  am <span style={{ color: '#00FFFF' }}>Prottay</span> </h2>
                 <p>I am a junior web developer.<br /> A self-motivated, energetic and active person,<br />

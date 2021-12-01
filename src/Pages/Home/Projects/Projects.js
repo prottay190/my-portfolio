@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './Projects.css';
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import img1 from '../../../Images/projects/car-sales.png'
@@ -9,6 +11,13 @@ import { Link } from 'react-router-dom';
 
 
 const Projects = () => {
+    useEffect (() => {
+        AOS.init({
+            offset: 100,
+            duration: 1000,
+            easing: 'ease'
+        });
+    })
     return (
         <div id="projects" className="Projects container py-3">
             <div>
@@ -21,7 +30,8 @@ const Projects = () => {
             </div>
 
             <Row xs={1} md={2} lg={3} className="g-4">
-                    <Col>
+                    <Col data-aos="fade-right" data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
                         <Card>
                             <Card.Img variant="top" src={img1}/>
                             <Card.Body>
@@ -46,7 +56,8 @@ const Projects = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col>
+                    <Col data-aos="fade-up" data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
                         <Card>
                             <Card.Img variant="top" src={img2}/>
                             <Card.Body>
@@ -71,7 +82,8 @@ const Projects = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col>
+                    <Col data-aos="fade-left" data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
                         <Card>
                             <Card.Img variant="top" src={img3}/>
                             <Card.Body>
