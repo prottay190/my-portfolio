@@ -1,5 +1,7 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Footer.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import img from'../../../Images/footer/20211127_230649.jpg';
 import Contact from './Contact/Contact';
 
@@ -14,9 +16,18 @@ const Footer = () => {
       function closeModal() {
         setIsOpen(false);
       }
+      useEffect (() => {
+        AOS.init({
+            offset: 100,
+            duration: 1000,
+            easing: 'ease'
+        });
+    })
     return (
         <div className="footer text-center">
-             <img src={img} alt="" style={{ width: '100px', height: '100px'}} className='mx-auto rounded-circle img-fluid' />
+            <div data-aos="zoom-in">
+            <img src={img} alt="" style={{ width: '100px', height: '100px'}} className='mx-auto rounded-circle img-fluid' />
+            </div>
             <p className="lead font-weight-bold ml-5 mt-2">Web Developer</p>  
             <div className="d-flex justify-content-center">
               <div>
