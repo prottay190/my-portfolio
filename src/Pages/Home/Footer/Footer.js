@@ -44,7 +44,7 @@ const Footer = () => {
                 
               </div>
               <div>
-                <a href="https://drive.google.com/file/d/18C3AF2ALcV1Xyvz9SPLe7xwg3jyEjTtM/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/1f8psTzX0fwH1cEtlbkz-GSPgc5zHTjQ6/view?usp=sharing">
                   <button className="btn btn-info m-2">
                     <strong>Download Resume</strong>
                   </button>

@@ -1,0 +1,10 @@
+.blog-container{
+    text-align: center;
+    border: 1px solid salmon;
+    padding: 80px 50px;
+    margin-bottom: 20px;
+}
+.blog-container h2{
+    color: #FA8072;
+    margin-bottom: 30px;
+}

@@ -15,8 +15,6 @@ import Projects2Details from './Pages/Details/Projects2Details/Projects2Details'
 import Projects3Details from './Pages/Details/Projects3Details/Projects3Details';
 
 
-
-
 function App() {
   return (
    <div>

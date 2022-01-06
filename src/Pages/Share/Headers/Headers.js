@@ -17,7 +17,7 @@ const Headers = () => {
                             <NavLink style={{ textDecoration: 'none', color: '#fff', fontSize: '18px', margin: '5px' }} to="/home"> Home</NavLink>
                             <NavLink style={{ textDecoration: 'none', color: '#fff',fontSize: '18px', margin: '5px'  }} to="/blogs"> Blogs</NavLink>
                             <NavLink as={HashLink}  style={{ textDecoration: 'none', color: '#fff',fontSize: '18px', margin: '5px'  }} to="/home#about">About</NavLink>
-                            <a href="https://drive.google.com/file/d/18C3AF2ALcV1Xyvz9SPLe7xwg3jyEjTtM/view?usp=sharing" target="_blank" rel='noreferrer'>
+                            <a href="https://drive.google.com/file/d/1f8psTzX0fwH1cEtlbkz-GSPgc5zHTjQ6/view?usp=sharing" target="_blank" rel='noreferrer'>
                                 <button type="button" class="btn btn-outline-secondary text-white">Resume</button>
                             </a>
                         </Nav>
