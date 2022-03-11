@@ -1,8 +1,6 @@
 import React from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
-import img1a from '../../../Images/ProjectsDetails/resized-image-Promo.jpeg'
-import img1b from '../../../Images/ProjectsDetails/resized-image-P.jpeg'
-import img1c from '../../../Images/ProjectsDetails/resized-image-.jpeg'
+import img1 from '../../../Images/ProjectsDetails/Image_10_250x400.png'
 import Headers from '../../Share/Headers/Headers';
 
 const Projects1Details = () => {
@@ -14,17 +12,7 @@ const Projects1Details = () => {
               <Row xs={1} md={2} lg={3} className="g-4">
                   <Col>
                     <Card>
-                     <Card.Img variant="top" src={img1a} />
-                    </Card>
-                  </Col>
-                  <Col>
-                    <Card>
-                     <Card.Img variant="top" src={img1b} />
-                    </Card>
-                  </Col>
-                  <Col>
-                    <Card>
-                     <Card.Img variant="top" src={img1c} />
+                     <Card.Img variant="top" src={img1} />
                     </Card>
                   </Col>
               </Row>

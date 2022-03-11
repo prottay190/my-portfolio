@@ -4,8 +4,7 @@ import Home from './Pages/Home/Home/Home';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Blogs from './Pages/Blogs/Blogs';
 import Banner from './Pages/Home/Banner/Banner';
@@ -17,7 +16,7 @@ import Projects3Details from './Pages/Details/Projects3Details/Projects3Details'
 
 function App() {
   return (
-   <div>
+   <div style={{ backgroundColor: "black", color: "white" }}>
       <Router>
         <Switch>
         <Route exact path="/">

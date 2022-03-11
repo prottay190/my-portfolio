@@ -6,6 +6,13 @@
     padding: 70px;
     
 }
+.img-port{
+    width: 50%;
+    
+}
+.b-t{
+    margin-top: 100px;
+}
 .banner-text h2{
  font-size: 44px;
 }
