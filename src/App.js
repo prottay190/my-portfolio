@@ -16,7 +16,7 @@ import Projects3Details from './Pages/Details/Projects3Details/Projects3Details'
 
 function App() {
   return (
-   <div style={{ backgroundColor: "black", color: "white" }}>
+   <div style={{ backgroundColor: "black", color: "white" }} >
       <Router>
         <Switch>
         <Route exact path="/">

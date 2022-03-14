@@ -4,6 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 import img1 from '../../../Images/banner/20211127_230649.jpg'
+import Typical from 'react-typical';
 
 const Banner = () => {
     useEffect (() => {
@@ -20,7 +21,13 @@ const Banner = () => {
             <div>
             <img src={img1} alt="" style={{ width: '100px', height: '100px'}} className='mx-auto rounded-circle img-fluid' />
             </div>
-                <h2>Hello, I  am <span style={{ color: '#00FFFF' }}>Prottay</span> </h2>
+                <h2 style={{ color: '#00FFFF' }}>
+                   <Typical 
+                      loop={Infinity}
+                      steps={[ 'Hello,', 1000, 'I am Prottay', 1000,]}
+                      wrapper="p" 
+                   />
+                </h2>
                 <p>I am a web developer.<br /> A self-motivated, energetic and active person,<br />
                 I want to a perfect aiding-hand of your organization <br />
                     according to my qualifications during my job.</p>

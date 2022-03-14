@@ -2,13 +2,14 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
+import { FaOm } from 'react-icons/fa';
 
 const Headers = () => {
     return (
         <div>
             <Navbar sticky='top' collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Container>
-                    <Navbar.Brand>WelCome</Navbar.Brand>
+                <Container className='p-2'>
+                    <Navbar.Brand style={{fontFamily: ' Georgia, serif'}}><FaOm style={{fontSize: '25px', marginTop: '-10px', marginRight: '10px' }} /> <span>WelCome Prottay Portfolio</span> </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
