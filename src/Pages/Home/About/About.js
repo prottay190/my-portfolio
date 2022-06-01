@@ -54,42 +54,36 @@ const About = () => {
 
                                 <Col>
                                     <p><FaCss3Alt /></p>
-                                    <span>CSS3 95%<ProgressBar animated now={95} /></span>
+                                    <span>CSS 95%<ProgressBar animated now={95} /></span>
                                 </Col>
 
                                 <Col>
                                     <p><FaJs /></p>
-                                    <span>Javascript 95%<ProgressBar animated now={95} /></span>
+                                    <span>Javascript 79%<ProgressBar animated now={95} /></span>
                                 </Col>
 
                                 <Col>
                                     <p><FaReact /></p>
-                                    <span>react 95%<ProgressBar animated now={95} /></span>
+                                    <span>React 85%<ProgressBar animated now={95} /></span>
                                 </Col>
 
                                 <Col>
                                     <p><FaNodeJs /></p>
-                                    <span>Nodejs 95%<ProgressBar animated now={95} /></span>
-                                </Col>
-
-                                  <Col>
-                                    <p><FaBootstrap /></p>
-                                    <span>Bootstrap 95%<ProgressBar animated now={95} /></span>
+                                    <span>Nodejs 75%<ProgressBar animated now={95} /></span>
                                 </Col>
 
                                 <Col> 
                                 <p><FaCss3Alt /></p>
-                                    <span>MongoDB 95%<ProgressBar animated now={95} /></span>
+                                    <span>MongoDB 78%<ProgressBar animated now={95} /></span>
                                 </Col>
 
                                 <Col> 
                                 <p><FaCss3Alt /></p>
-                                    <span>Firebase 95%<ProgressBar animated now={95} /></span>
+                                    <span>Expressjs 76%<ProgressBar animated now={95} /></span>
                                 </Col>
-
-                                <Col>
+                                <Col> 
                                 <p><FaCss3Alt /></p>
-                                    <span>MaterialUi 95%<ProgressBar animated now={95} /></span>
+                                    <span>Firebase 88%<ProgressBar animated now={95} /></span>
                                 </Col>
 
                             </Row>

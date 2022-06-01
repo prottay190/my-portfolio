@@ -6,6 +6,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import img1 from '../../../Images/projects/car-sales.png';
 import img2 from '../../../Images/projects/tourism.png';
 import img3 from '../../../Images/projects/doctors-services.png';
+import img4 from '../../../Images/projects/Screenshot (91).png';
 import { Card, Col, Row, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
@@ -111,7 +112,7 @@ const Projects = () => {
                 <Col data-aos="fade-right" data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
                     <Card>
-                        <Card.Img variant="top" src={img1} />
+                        <Card.Img variant="top" src={img4} />
                         <Card.Body>
                             <h4 className="card-title">Solotrip Website</h4>
                             <Card.Text>
