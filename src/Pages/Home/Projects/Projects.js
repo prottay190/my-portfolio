@@ -120,13 +120,13 @@ const Projects = () => {
                             </Card.Text>
                             <div className="technology mb-2"><span>React</span> <span>React Bootstrap</span> <span>React Router</span> <span>Node.js</span> <span>Express.js</span> <span>MongoDB</span>  <span>Firebase</span> <span>Heroku</span></div>
 
-                            <a href='https://github.com/prottay190/car-sales-website-client' target="_blank" >
+                            <a href='https://github.com/prottay190/solotrip-client' target="_blank" >
                                 <button type="button" className="btn btn-secondary btn-block p-button">
                                     <FaGithub className="icon" />
                                     GitHub Link</button>
                             </a>
 
-                            <a href='https://car-sales-website.web.app/' target="_blank">
+                            <a href='https://solo-trip.web.app/' target="_blank">
                                 <button type="button" className="btn btn-primary btn-block p-button">
                                     <FaExternalLinkAlt className="icon" />
                                     Live site</button>
