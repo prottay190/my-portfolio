@@ -35,7 +35,7 @@ const Banner = () => {
             <div className="text-center social" style={{marginBottom: '180px'}}>
             <a href="https://www.linkedin.com/in/prottay-roy-arnob-791181213/" target="_blank"> <FaLinkedin /></a>  
             <a href="https://github.com/prottay190" target="_blank"><FaGithub /></a>  
-           <a href="https://www.facebook.com/aume.roy" target="_blank"><FaFacebook /></a>  
+           <a href="https://web.facebook.com/Prottay.Roy.Arnob19" target="_blank"><FaFacebook /></a>  
             </div>
         </div>
     );

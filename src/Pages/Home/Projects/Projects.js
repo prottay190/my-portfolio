@@ -131,7 +131,7 @@ const Projects = () => {
                                     <FaExternalLinkAlt className="icon" />
                                     Live site</button>
                             </a>
-                            <Link to="/project1"><Button style={{ padding: '10px 100px', background: '#FA8072' }}>Details</Button></Link>
+                            <Link to="/project4"><Button style={{ padding: '10px 100px', background: '#FA8072' }}>Details</Button></Link>
                         </Card.Body>
                     </Card>
                 </Col>

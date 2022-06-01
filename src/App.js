@@ -12,6 +12,7 @@ import  NotFound  from './Pages/NotFound/NotFound';
 import Projects1Details from './Pages/Details/Project1Details/Projects1Details';
 import Projects2Details from './Pages/Details/Projects2Details/Projects2Details';
 import Projects3Details from './Pages/Details/Projects3Details/Projects3Details';
+import Projects4Details from './Pages/Details/Project4Details/Project4Details';
 
 
 function App() {
@@ -39,6 +40,9 @@ function App() {
           </Route>
           <Route path="/project3">
             <Projects3Details></Projects3Details>
+          </Route>
+          <Route path="/project4">
+            <Projects4Details></Projects4Details>
           </Route>
           <Route path="*">
             <NotFound></NotFound>
